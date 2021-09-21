@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+ const firebaseConfig = {
+  apiKey: "AIzaSyDRJI1O3eV7WIniRSf1Vn0GP5KFMxaV9ms",
+  authDomain: "ball-movement-43830.firebaseapp.com",
+  databaseURL: "https://ball-movement-43830-default-rtdb.firebaseio.com",
+  projectId: "ball-movement-43830",
+  storageBucket: "ball-movement-43830.appspot.com",
+  messagingSenderId: "286461253058",
+  appId: "1:286461253058:web:0815429b5db6f5152c725b"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
